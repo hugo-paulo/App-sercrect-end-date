@@ -43,7 +43,8 @@ foreach($aC in $appCreds){
 		        DisplayName = "SuperSec 3"
 	        }
         }
-
+	
+	#Needs to have directory role APP Admin
         Add-MgApplicationPassword -ApplicationId 'app id targer' -BodyParameter $params 
       
     }
